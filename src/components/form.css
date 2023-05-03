@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    /* margin: 30px; */
+    
+}
+body{
+    margin-top: 10px;
+    margin-left: 90px;
+}

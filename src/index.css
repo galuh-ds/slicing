@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    /* margin: 30px; */
+    
+}
+/* body{
+    margin-top: 10px;
+    margin-left: 90px;
+} */
+/* 
+@media (max-width: 428px){
+    .container .table-data-employees{
+        width: 500px;
+        text-: 500%;
+    }
+} */
+
+
+
+
