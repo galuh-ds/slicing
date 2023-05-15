@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import { Navigate } from 'react-router-dom'
+import { Link, Navigate } from 'react-router-dom'
 
 
 
@@ -110,7 +110,7 @@ const Register = () => {
         >Button</button>
        
         <p className='flex justify-center mt-1 font-'>Sudah memiliki akun,
-          <a href="/login" className='text-blue-900 px-1' >login.</a>
+          <Link to="/login" className='text-blue-900 px-1' >login.</Link>
         </p>
         <p className='mt-5'></p>
         

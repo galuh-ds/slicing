@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
   // const [accounts, setAccount] = useState('')
@@ -93,9 +93,9 @@ const Login = () => {
         </div>
         <p className="flex justify-center mt-4 font-">
           Belum memiliki akun,
-          <a href="/" className="text-blue-900 px-1">
+          <Link to="/" className="text-blue-900 px-1">
             Register.
-          </a>
+          </Link>
         </p>
       </form>
     </div>
